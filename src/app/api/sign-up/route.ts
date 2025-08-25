@@ -50,7 +50,7 @@ export async function POST(request: Request) {
         }
         // User come for the first time so create its record in the db
         else {
-            const hashedPassword = bcrypt.hash(password, 10)
+            const hashedPassword = await bcrypt.hash(password, 10)
             const expiryDate = new Date()
             expiryDate.setHours(expiryDate.getHours() + 1)
 
@@ -90,7 +90,7 @@ export async function POST(request: Request) {
         );
     }
     catch (error) {
-        console.error('Error registering user:', error);
+        console.log('Error registering user:', error);
         return Response.json(
             {
                 success: false,
