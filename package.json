@@ -9,16 +9,19 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.23",
     "@react-email/components": "^0.5.1",
+    "ai": "^2.2.30",
     "bcryptjs": "^3.0.2",
     "mongoose": "^8.18.0",
     "next": "15.5.0",
     "next-auth": "^4.24.11",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "openai": "^4.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-email": "^4.2.8",
     "resend": "^6.0.1",
-    "zod": "^4.0.17"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
