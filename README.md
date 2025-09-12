@@ -1,4 +1,4 @@
-# WhiperGram
+# WhisperGram
 
 WhiperGram is a **Next.js 14** project that delves into the realm of **anonymous feedback**. It provides a platform where users can express their thoughts and opinions without revealing their identity.  
 
@@ -8,7 +8,7 @@ This project showcases the capabilities of **Next.js 14**, including **server ac
 
 ## 🔗 Live Demo
 
-👉 [WhiperGram on Vercel](https://whisper-gram-v6an.vercel.app/)
+👉 [WhisperGram on Vercel](https://whisper-gram-v6an.vercel.app/)
 
 ---
 
@@ -46,7 +46,7 @@ This project showcases the capabilities of **Next.js 14**, including **server ac
 
 ## 📌 Conclusion
 
-WhiperGram is a **Next.js 14 project** that revolutionizes the way feedback is collected and shared.  
+WhisperGram is a **Next.js 14 project** that revolutionizes the way feedback is collected and shared.  
 By leveraging **MongoDB, Next-Auth, and OpenAI**, it creates a **secure, anonymous, and intelligent platform** for users to express themselves.  
 
 This project is a **testament to the power of Next.js 14 and AI integration**, showing how modern technologies can transform the way we gather and utilize feedback.  
@@ -57,5 +57,7 @@ This project is a **testament to the power of Next.js 14 and AI integration**, s
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/whipergram.git
-   cd whipergram
+   git clone https://github.com/your-username/whispergram.git
+   cd whispergram
+   npm install
+   npm run dev
