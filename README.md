@@ -2,7 +2,7 @@
 
 WhiperGram is a **Next.js 14** project that delves into the realm of **anonymous feedback**. It provides a platform where users can express their thoughts and opinions without revealing their identity.  
 
-This project showcases the capabilities of **Next.js 14**, including **server actions**, **Supabase integration**, **Next-Auth for authentication**, and **AI-powered message suggestions using OpenAI**.
+This project showcases the capabilities of **Next.js 14**, including **server actions**, **MongoDB integration**, **Next-Auth for authentication**, and **AI-powered message suggestions using OpenAI**.
 
 ---
 
@@ -16,7 +16,7 @@ This project showcases the capabilities of **Next.js 14**, including **server ac
 
 - **Anonymous Feedback** – Users can submit feedback without disclosing their identity, fostering a safe and open environment.  
 - **Server Actions** – Utilizes Next.js 14's server actions for efficient handling of feedback, real-time updates, and interactivity.  
-- **Supabase Integration** – Serves as the project’s database, ensuring robust and scalable data storage.  
+- **MongoDB Integration** – Acts as the project’s database, providing scalable storage for feedback and user data.  
 - **Next-Auth (Auth.js v5)** – Provides secure authentication for user accounts and platform access.  
 - **AI-Powered Suggestions** – Integrated with **OpenAI** to provide intelligent feedback/message suggestions, making interactions more engaging.  
 
@@ -34,7 +34,7 @@ This project showcases the capabilities of **Next.js 14**, including **server ac
 ## 🛠 Tech Stack
 
 - **Next.js 14** – Server-side rendering, efficient routing, and enhanced SEO.  
-- **Supabase** – Open-source Firebase alternative for database and backend services.  
+- **MongoDB** – NoSQL document database for storing and managing feedback data.  
 - **Auth.js (Next-Auth v5)** – Streamlined authentication for Next.js applications.  
 - **JWT** – Secure token-based authentication and authorization.  
 - **TypeScript** – Static typing for reliability and maintainability.  
@@ -47,7 +47,7 @@ This project showcases the capabilities of **Next.js 14**, including **server ac
 ## 📌 Conclusion
 
 WhiperGram is a **Next.js 14 project** that revolutionizes the way feedback is collected and shared.  
-By leveraging **Supabase, Next-Auth, and OpenAI**, it creates a **secure, anonymous, and intelligent platform** for users to express themselves.  
+By leveraging **MongoDB, Next-Auth, and OpenAI**, it creates a **secure, anonymous, and intelligent platform** for users to express themselves.  
 
 This project is a **testament to the power of Next.js 14 and AI integration**, showing how modern technologies can transform the way we gather and utilize feedback.  
 
